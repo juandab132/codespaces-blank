@@ -1,0 +1,3 @@
+base = 50000
+si base <> 40000:
+print(base)

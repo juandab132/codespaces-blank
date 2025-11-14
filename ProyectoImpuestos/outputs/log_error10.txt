@@ -1,0 +1,3 @@
+❌ Errores de análisis (léxico/sintáctico):
+  - line 2:4 missing '=' at 'ingreso'
+  - line 2:12 mismatched input '>' expecting ';'

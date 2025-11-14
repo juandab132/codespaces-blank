@@ -1,0 +1,4 @@
+utilidad = 15000;
+si utilidad >= 10000:
+pago = utilidad * 0.25;
+print(pago);

@@ -1,0 +1,3 @@
+si salario > 100000:
+impuesto = salario * 0.2;
+print(impuesto);

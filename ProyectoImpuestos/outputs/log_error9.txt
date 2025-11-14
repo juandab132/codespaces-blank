@@ -1,0 +1,4 @@
+❌ Errores de análisis (léxico/sintáctico):
+  - line 2:0 missing ';' at 'si'
+  - line 2:9 extraneous input '>' expecting {ID, NUMBER}
+  - line 4:0 missing ';' at '<EOF>'

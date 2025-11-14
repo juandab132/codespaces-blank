@@ -1,0 +1,4 @@
+1valor = 20000;
+si valor > 10000:
+impuesto = valor * 0.2;
+print(impuesto);

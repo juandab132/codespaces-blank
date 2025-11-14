@@ -1,0 +1,4 @@
+valor = 10000;
+si valor = 10000:
+impuesto = valor * 0.1;
+print(impuesto);

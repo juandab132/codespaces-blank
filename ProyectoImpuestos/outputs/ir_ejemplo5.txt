@@ -1,0 +1,4 @@
+1: precio = 120
+2: IF precio > 100:
+3: total = precio*1.05
+4: PRINT total

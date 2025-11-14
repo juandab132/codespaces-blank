@@ -1,0 +1,4 @@
+1: ingreso = 120000
+2: IF ingreso > 100000:
+3: impuesto = ingreso*0.2
+4: PRINT impuesto

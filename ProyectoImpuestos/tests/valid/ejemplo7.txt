@@ -1,0 +1,4 @@
+ventas = 20000;
+si ventas < 30000:
+comision = ventas * 0.1;
+print(comision);

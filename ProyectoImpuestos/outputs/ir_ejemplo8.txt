@@ -1,0 +1,4 @@
+1: utilidad = 15000
+2: IF utilidad >= 10000:
+3: pago = utilidad*0.25
+4: PRINT pago

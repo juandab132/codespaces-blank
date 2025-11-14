@@ -1,0 +1,2 @@
+❌ Errores de análisis (léxico/sintáctico):
+  - line 2:11 extraneous input '=' expecting {'<', '>', '<=', '>=', '==', '!='}

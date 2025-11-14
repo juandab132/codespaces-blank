@@ -1,0 +1,2 @@
+❌ Errores de análisis (léxico/sintáctico):
+  - line 1:15 token recognition error at: '$'

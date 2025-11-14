@@ -1,0 +1,4 @@
+1: sueldo = 250000
+2: IF sueldo > 150000:
+3: deduccion = sueldo*0.12
+4: PRINT deduccion

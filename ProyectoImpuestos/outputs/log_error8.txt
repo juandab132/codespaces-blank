@@ -1,0 +1,2 @@
+❌ Errores de análisis (léxico/sintáctico):
+  - line 1:0 extraneous input '1' expecting {'si', 'print', ID}

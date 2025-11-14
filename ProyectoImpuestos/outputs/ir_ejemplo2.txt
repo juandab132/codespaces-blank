@@ -1,0 +1,4 @@
+1: salario = 80000
+2: IF salario <= 100000:
+3: impuesto = salario*0.1
+4: PRINT impuesto

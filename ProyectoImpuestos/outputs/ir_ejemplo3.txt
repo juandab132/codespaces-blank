@@ -1,0 +1,4 @@
+1: valor = 300000
+2: IF valor >= 250000:
+3: descuento = valor*0.05
+4: PRINT descuento

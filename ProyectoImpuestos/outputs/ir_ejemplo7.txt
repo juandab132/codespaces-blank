@@ -1,0 +1,4 @@
+1: ventas = 20000
+2: IF ventas < 30000:
+3: comision = ventas*0.1
+4: PRINT comision

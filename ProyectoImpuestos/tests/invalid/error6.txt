@@ -1,0 +1,3 @@
+si monto < 10000:
+total = monto * 1.05;
+print(total);

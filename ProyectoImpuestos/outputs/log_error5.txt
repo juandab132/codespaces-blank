@@ -1,0 +1,2 @@
+❌ Errores de análisis (léxico/sintáctico):
+  - line 1:0 mismatched input '=' expecting {'si', 'print', ID}

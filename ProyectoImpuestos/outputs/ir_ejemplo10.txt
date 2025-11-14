@@ -1,0 +1,4 @@
+1: base = 40000
+2: IF base <= 50000:
+3: total = base*1.05
+4: PRINT total
