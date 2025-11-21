@@ -11,9 +11,9 @@ from codegen.python_generator import PythonGenerator
 
 import sys, os
 
-# ==============================
+
 #  Error listener que acumula errores léxicos/sintácticos
-# ==============================
+
 class CollectingErrorListener(ErrorListener):
     def __init__(self):
         super().__init__()
@@ -29,9 +29,8 @@ class CollectingErrorListener(ErrorListener):
         return len(self.errors) > 0
 
 
-# ==============================
 #  VISITOR PERSONALIZADO (recorre el AST y dispara semántica/IR/Python)
-# ==============================
+
 class ImpuestosCustomVisitor(ImpuestosVisitor):
     def __init__(self, semantic, inter, pygen):
         self.semantic = semantic     # analizador semántico (tabla de símbolos, errores)
@@ -50,6 +49,7 @@ class ImpuestosCustomVisitor(ImpuestosVisitor):
         return f"{var} {comp} {rhs}"
 
     # program: (statement)+ EOF
+    #El nodo raíz del programa. Recorre todas las sentencias del archivo en orden
     def visitProgram(self, ctx):
         # Recorremos todas las sentencias del programa en orden
         if hasattr(ctx, "statement"):
